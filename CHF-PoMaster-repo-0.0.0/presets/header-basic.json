@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Basic Glass Header",
+  "template_type": "header",
+  "active": true,
+  "conditions": [
+    "entire_site"
+  ],
+  "elementor_data": [
+    {
+      "id": "a1b2c3d4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "justify_content": "space-between",
+        "align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "18",
+          "right": "24",
+          "bottom": "18",
+          "left": "24",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "rgba(10,18,43,0.72)",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "border_color": "rgba(255,255,255,0.14)",
+        "border_radius": {
+          "unit": "px",
+          "top": "18",
+          "right": "18",
+          "bottom": "18",
+          "left": "18",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "logo1111",
+          "elType": "widget",
+          "widgetType": "chfp_site_logo",
+          "settings": {
+            "logo_source": "site_logo",
+            "fallback_text": "Your Brand",
+            "link_to": "home",
+            "align": "flex-start",
+            "logo_width": {
+              "unit": "px",
+              "size": 140,
+              "sizes": []
+            },
+            "glass_background": "rgba(255,255,255,0.08)",
+            "glass_padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "14",
+              "bottom": "10",
+              "left": "14",
+              "isLinked": false
+            },
+            "glass_radius": {
+              "unit": "px",
+              "size": 14,
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "menu1111",
+          "elType": "widget",
+          "widgetType": "chfp_nav_menu",
+          "settings": {
+            "layout": "horizontal",
+            "justify": "center",
+            "gap": {
+              "unit": "px",
+              "size": 14,
+              "sizes": []
+            },
+            "item_color": "#EAF2FF",
+            "item_hover_color": "#00B0F8",
+            "item_padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "14",
+              "bottom": "10",
+              "left": "14",
+              "isLinked": false
+            },
+            "item_radius": {
+              "unit": "px",
+              "size": 12,
+              "sizes": []
+            },
+            "item_glass_background": "rgba(255,255,255,0.06)",
+            "item_glass_hover_background": "rgba(255,255,255,0.14)"
+          },
+          "elements": []
+        },
+        {
+          "id": "cta11111",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Contact",
+            "link": {
+              "url": "/contact"
+            },
+            "align": "right",
+            "button_text_color": "#0A122B",
+            "background_color": "#EAF2FF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

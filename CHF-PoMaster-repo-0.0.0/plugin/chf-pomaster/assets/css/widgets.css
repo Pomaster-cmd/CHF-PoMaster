@@ -1,0 +1,106 @@
+/**
+ * Widget styles for CHF PoMaster Elementor widgets.
+ */
+
+.chfp-site-logo {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.chfp-site-logo__link,
+.chfp-site-logo__fallback,
+.chfp-site-logo__fallback-image {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	backdrop-filter: blur(14px) saturate(1.18);
+	-webkit-backdrop-filter: blur(14px) saturate(1.18);
+	border: 1px solid rgba(255, 255, 255, 0.16);
+	box-sizing: border-box;
+}
+
+.chfp-site-logo__image {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.chfp-site-logo__fallback {
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.chfp-nav-menu {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	backdrop-filter: blur(14px) saturate(1.12);
+	-webkit-backdrop-filter: blur(14px) saturate(1.12);
+}
+
+.chfp-nav-menu ul,
+.chfp-nav-menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.chfp-nav-menu__items {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.chfp-nav-menu a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	transition:
+		color .22s ease,
+		background-color .22s ease,
+		transform .22s ease,
+		box-shadow .22s ease;
+	box-sizing: border-box;
+}
+
+.chfp-nav-menu a:hover {
+	transform: translateY(-1px);
+}
+
+.chfp-nav-menu .menu-item-has-children {
+	position: relative;
+}
+
+.chfp-nav-menu .sub-menu {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	min-width: 220px;
+	padding: 10px;
+	gap: 8px;
+	flex-direction: column;
+	backdrop-filter: blur(16px) saturate(1.12);
+	-webkit-backdrop-filter: blur(16px) saturate(1.12);
+	background: rgba(8, 12, 22, 0.82);
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 14px;
+	z-index: 25;
+}
+
+.chfp-nav-menu .menu-item-has-children:hover > .sub-menu,
+.chfp-nav-menu .menu-item-has-children:focus-within > .sub-menu {
+	display: flex;
+}
+
+.chfp-nav-menu__placeholder {
+	padding: 16px 18px;
+	border-radius: 14px;
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	backdrop-filter: blur(14px);
+	-webkit-backdrop-filter: blur(14px);
+}

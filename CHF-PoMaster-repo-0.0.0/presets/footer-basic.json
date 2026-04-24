@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Basic Glass Footer",
+  "template_type": "footer",
+  "active": true,
+  "conditions": [
+    "entire_site"
+  ],
+  "elementor_data": [
+    {
+      "id": "f1e2d3c4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "justify_content": "center",
+        "align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "rgba(10,18,43,0.78)",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "border_color": "rgba(255,255,255,0.12)",
+        "border_radius": {
+          "unit": "px",
+          "top": "18",
+          "right": "18",
+          "bottom": "18",
+          "left": "18",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "footertext1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Footer preset imported from CHF PoMaster JSON",
+            "align": "center",
+            "title_color": "#EAF2FF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
